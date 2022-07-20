@@ -1,0 +1,25 @@
+{
+	"name": "@msawatzky75/fallback-promise",
+	"packageManager": "yarn@3.2.1",
+	"description": "Executes a promise, and if it fails, runs a fallback promise",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"main": "dist/index.js",
+	"keywords": [
+		"promise",
+		"fallback",
+		"fallback-promise",
+		"timeout"
+	],
+	"devDependencies": {
+		"eslint": "^8.20.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"moduleResolution": "Node",
+		"allowJs": false,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true,
+		"lib": ["esnext", "DOM"]
+	},
+	"files": ["fallback-promise.ts"]
+}
