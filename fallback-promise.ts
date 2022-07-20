@@ -21,3 +21,4 @@ export async function FallbackPromise<T extends any>(
 
 	return p.catch(secondary);
 }
+export default FallbackPromise;

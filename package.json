@@ -2,7 +2,7 @@
 	"name": "@msawatzky75/fallback-promise",
 	"packageManager": "yarn@3.2.1",
 	"description": "Executes a promise, and if it fails, runs a fallback promise",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"scripts": {
 		"build": "tsc"
 	},
