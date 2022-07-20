@@ -2,7 +2,7 @@
 	"name": "@msawatzky75/fallback-promise",
 	"packageManager": "yarn@3.2.1",
 	"description": "Executes a promise, and if it fails, runs a fallback promise",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"scripts": {
 		"build": "tsc"
 	},
@@ -10,7 +10,7 @@
 		"dist"
 	],
 	"type": "module",
-	"main": "dist/index.js",
+	"main": "dist/fallback-promise.js",
 	"keywords": [
 		"promise",
 		"fallback",
